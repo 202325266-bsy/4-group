@@ -177,7 +177,7 @@ NBR은 근적외선과 단파적외선 반사도의 차이를 이용하여 식�
 
 **[식 (2) dNBR 계산식]**
 
-<img width="214" height="46" alt="image" src="https://github.com/user-attachments/assets/c229c907-9de7-4ae6-b372-3680c8b31234" />
+<img src="https://github.com/user-attachments/assets/c229c907-9de7-4ae6-b372-3680c8b31234" alt="수식" style="width:214px !important; max-width:214px !important; height:auto !important;">
 
 여기서 \(\mathrm{NBR}_{pre}\)는 산불 이전 NBR, \(\mathrm{NBR}_{post}\)는 산불 이후 NBR을 의미한다.
 
@@ -200,7 +200,7 @@ NBR은 근적외선과 단파적외선 반사도의 차이를 이용하여 식�
 
 **[식 (3) 공간적 일치도 계산식]**
 
-<img width="170" height="54" alt="image" src="https://github.com/user-attachments/assets/3705f0f4-8198-4c7d-b74c-224fe1e3f6a5" />
+<img src="https://github.com/user-attachments/assets/3705f0f4-8198-4c7d-b74c-224fe1e3f6a5" alt="수식" style="width:170px !important; max-width:170px !important; height:auto !important;">
 
 여기서 \(A\)는 dNBR 3~6등급 지역, \(B\)는 MODIS 산불 탐지지역이다. \(|A\cap B|\)는 두 자료에서 공통으로 나타나는 면적, \(|A\cup B|\)는 두 자료 중 하나 이상에 포함되는 전체 면적을 의미한다.
 
@@ -214,7 +214,7 @@ NDVI는 근적외선과 적색 밴드의 반사도 차이를 이용하여 식생
 
 **[식 (4) NDVI 계산식]**
 
-<img width="143" height="48" alt="image" src="https://github.com/user-attachments/assets/6c3123ea-50cf-49fa-bb9d-aa7e2e7af22b" />
+<img src="https://github.com/user-attachments/assets/6c3123ea-50cf-49fa-bb9d-aa7e2e7af22b" alt="수식" style="width:143px !important; max-width:143px !important; height:auto !important;">
 
 여기서 \(B_8\)은 근적외선 밴드, \(B_4\)는 적색 밴드의 지표반사도를 의미한다.
 
@@ -228,7 +228,7 @@ NDVI는 근적외선과 적색 밴드의 반사도 차이를 이용하여 식생
 
 **[식 (5) NDVI 감소량 대비 회복률]**
 
-<img width="272" height="62" alt="image" src="https://github.com/user-attachments/assets/623976eb-6471-4939-942d-35977110730e" />
+<img src="https://github.com/user-attachments/assets/623976eb-6471-4939-942d-35977110730e" alt="수식" style="width:272px !important; max-width:272px !important; height:auto !important;">
 
 여기서 \(R_t\)는 분석 연도 \(t\)의 NDVI 감소량 대비 회복률이며, \(\mathrm{NDVI}_{2019}\)는 산불 이전 평균 NDVI, \(\mathrm{NDVI}_{2020}\)은 산불 직후 평균 NDVI를 의미한다.
 
@@ -238,7 +238,7 @@ NDVI는 근적외선과 적색 밴드의 반사도 차이를 이용하여 식생
 
 **[식 (6) 산불 이전 대비 NDVI 차이]**
 
-<img width="276" height="43" alt="image" src="https://github.com/user-attachments/assets/632ba37a-237d-4740-bda7-6a135f4caced" />
+<img src="https://github.com/user-attachments/assets/632ba37a-237d-4740-bda7-6a135f4caced" alt="수식" style="width:276px !important; max-width:276px !important; height:auto !important;">
 
 이를 통해 피해강도별 상대적 회복률과 산불 이전 대비 남아 있는 NDVI 차이를 함께 비교하였다.
 
@@ -256,7 +256,7 @@ NDVI는 근적외선과 적색 밴드의 반사도 차이를 이용하여 식생
 
 **[식 (7) Pearson 상관계수]**
 
-<img width="281" height="62" alt="image" src="https://github.com/user-attachments/assets/6417365e-2d0c-4ff5-bca0-b70a7c0c3c77" />
+<img src="https://github.com/user-attachments/assets/6417365e-2d0c-4ff5-bca0-b70a7c0c3c77" alt="수식" style="width:281px !important; max-width:281px !important; height:auto !important;">
 
 여기서 \(x_i\)는 연도별 누적 강수량, \(y_i\)는 해당 연도의 평균 NDVI이며, \(\bar{x}\)와 \(\bar{y}\)는 각각 두 변수의 평균이다. \(n\)은 상관계수 계산에 사용한 연도별 관측값의 수이다.
 
@@ -270,7 +270,7 @@ NDVI는 근적외선과 적색 밴드의 반사도 차이를 이용하여 식생
 
 **[식 (8) 2019년 대비 NDVI 변화량]**
 
-<img width="262" height="43" alt="image" src="https://github.com/user-attachments/assets/655f0415-0fa0-48c4-b4f6-fa8caf4d90f7" />
+<img src="https://github.com/user-attachments/assets/655f0415-0fa0-48c4-b4f6-fa8caf4d90f7" alt="수식" style="width:262px !important; max-width:262px !important; height:auto !important;">
 
 여기서 \(g\)는 산불 탐지 산림 또는 비탐지 산림 집단을, \(t\)는 분석 연도를 의미한다.
 
@@ -278,7 +278,7 @@ NDVI는 근적외선과 적색 밴드의 반사도 차이를 이용하여 식생
 
 **[식 (9) 집단 간 NDVI 변화량 차이]**
 
-<img width="221" height="31" alt="image" src="https://github.com/user-attachments/assets/5815ec74-ccb8-41ce-9b33-ef3a977bfb94" />
+<img src="https://github.com/user-attachments/assets/5815ec74-ccb8-41ce-9b33-ef3a977bfb94" alt="수식" style="width:221px !important; max-width:221px !important; height:auto !important;">
 
 여기서 \(B\)는 산불 탐지 산림, \(U\)는 산불 비탐지 산림을 의미한다.
 
