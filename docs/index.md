@@ -165,11 +165,7 @@ NBR은 근적외선과 단파적외선 반사도의 차이를 이용하여 식�
 
 **[식 (1) NBR 계산식]**
 
-<img
-  src="https://github.com/user-attachments/assets/484e3d6f-7380-4eb8-aa73-1603ae7d34b0"
-  alt="NBR 계산식"
-  style="width:140px !important; max-width:140px !important; height:auto !important;"
->
+<img src="https://github.com/user-attachments/assets/6af4a910-b3a1-438f-b63f-4e76db29f713" alt="수식" style="width:135px !important; max-width:135px !important; height:auto !important;">
 
 여기서 \(B_8\)은 근적외선 밴드, \(B_{12}\)는 단파적외선 밴드의 지표반사도를 의미한다.
 
