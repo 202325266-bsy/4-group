@@ -393,7 +393,7 @@ Sentinel-2의 dNBR 분석 결과와 MODIS의 산불 탐지 범위를 비교하�
 
 두 자료의 공간적 비교를 위해 분석 해상도를 100m로 통일하였으며, dNBR이 0.10 이상인 지역을 산불 피해 후보지역으로 설정하였다.
 
-**[그림 4] Sentinel-2 dNBR 피해지역과 MODIS 산불 탐지지역의 공간적 중첩 비교**
+<img width="1706" height="618" alt="image" src="https://github.com/user-attachments/assets/2e0a4ff0-2c3b-48bd-b4e7-4f25a22b4e90" />
 
 *(삽입 자료: dNBR 0.10 이상 지역과 MODIS 산불 탐지지역의 중첩 분포를 나타낸 지도)*
 
