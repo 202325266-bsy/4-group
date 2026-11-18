@@ -368,7 +368,7 @@ Sentinel-2 위성영상으로 산불 발생 전후의 NBR을 산출하고, 두 �
 
 <img width="1447" height="661" alt="image" src="https://github.com/user-attachments/assets/58c43947-3296-4d33-86c2-3f3e93888352" />
 
-*(삽입 자료: Google Colab에서 생성한 dNBR 6개 등급 지도. 등급별 범례와 캥거루섬 전체가 보이도록 캡처)*
+*(그림 3 : Google Colab에서 생성한 dNBR 6개 등급 지도. 등급별 범례와 캥거루섬 전체가 보이도록 캡처)*
 
 **[표 3] dNBR 등급별 면적 및 전체 연구지역 대비 비율**
 
@@ -395,7 +395,7 @@ Sentinel-2의 dNBR 분석 결과와 MODIS의 산불 탐지 범위를 비교하�
 
 <img width="1706" height="618" alt="image" src="https://github.com/user-attachments/assets/2e0a4ff0-2c3b-48bd-b4e7-4f25a22b4e90" />
 
-*(삽입 자료: dNBR 0.10 이상 지역과 MODIS 산불 탐지지역의 중첩 분포를 나타낸 지도)*
+*(그림 4 : dNBR 0.10 이상 지역과 MODIS 산불 탐지지역의 중첩 분포를 나타낸 지도)*
 
 **[표 4] dNBR 피해지역과 MODIS 산불 탐지지역의 비교 결과**
 
@@ -490,7 +490,7 @@ MODIS 산불 탐지지역을 대상으로 연도별 평균 NDVI를 산출한 결
 
 <img width="1007" height="555" alt="image" src="https://github.com/user-attachments/assets/2eba3acb-b4da-41a9-90c3-fff0ab4f1c8d" />
 
-*그림 6. 캥거루섬 산불 피해강도별 산불 전후 및 2025년 평균 NDVI 비교*
+*그림 6. dNBR 피해강도별 2025년 NDVI 회복률 비교*
 
 이처럼 산불 피해강도에 따라 NDVI의 감소량과 이후 회복 정도에는 차이가 확인되었다. 특히 높은 피해지역은 상대적 회복률이 가장 높았으나, 이것이 산불 이전 식생 상태로 완전히 회복되었음을 의미하지는 않는다. 이에 다음 절에서는 각 등급의 2025년 NDVI가 산불 이전 수준과 얼마나 차이가 나는지를 추가로 비교하였다.
 
@@ -500,9 +500,7 @@ MODIS 산불 탐지지역을 대상으로 연도별 평균 NDVI를 산출한 결
 
 NDVI 잔여 격차는 다음과 같이 계산하였다.
 
-\[
-\Delta NDVI=NDVI_{2019}-NDVI_{2025}
-\]
+<img width="283" height="36" alt="image" src="https://github.com/user-attachments/assets/4c20efae-d8ca-4c61-afcc-cfb1abed97dd" />
 
 여기서 \(\Delta NDVI\)는 산불 이전과 2025년 사이의 평균 NDVI 차이를 의미하며, 값이 클수록 2025년의 NDVI가 산불 이전 수준보다 낮음을 나타낸다.
 
@@ -527,7 +525,7 @@ NDVI 잔여 격차는 다음과 같이 계산하였다.
 
 이는 산불 직후 감소한 NDVI에 대한 상대적인 회복률과 산불 이전 수준까지 남아 있는 절대적인 NDVI 차이가 서로 다른 지표임을 보여준다. 따라서 피해강도별 식생 회복 양상을 비교할 때는 회복률뿐 아니라 산불 이전 대비 NDVI 잔여 격차도 함께 고려할 필요가 있다.
 
-### 6.4 세부목적 3 · 품질 기준 민감도 및 공간 예측 성능 {#deep-robustness}
+### 6.4 세부목적 3의 결과: 강수량과 식생 회복의 연관성 및 비탐지 산림 비교
 
 ### 6.4.1 연도별 강수량과 NDVI 변화의 관계
 
@@ -565,7 +563,7 @@ NDVI 잔여 격차는 다음과 같이 계산하였다.
 
 <img width="1156" height="627" alt="image" src="https://github.com/user-attachments/assets/160191af-fb2e-4264-9280-4e852f509af5" />
 
-*그림 8. 2020~2025년 캥거루섬 누적강수량과 산불 탐지지역 평균 NDVI의 관계*
+*그림 8. 2019~2025년 누적강수량과 산불 탐지지역의 평균 NDVI 변화*
 
 이러한 결과는 본 연구에서 비교한 6개 연도에 한하여 누적강수량과 평균 NDVI 사이에 뚜렷한 선형적 연관성이 나타나지 않았음을 보여준다. 다만 강수량 집계기간과 NDVI 영상의 실제 관측시점이 완전히 일치하지 않을 수 있으며, 연도별 표본 수가 6개로 제한되어 있어 상관분석 결과는 탐색적인 비교로 해석하였다.
 
