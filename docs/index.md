@@ -412,7 +412,7 @@ Sentinel-2의 dNBR 분석 결과와 MODIS의 산불 탐지 범위를 비교하�
 
 두 자료의 교집합 면적을 합집합 면적으로 나누어 계산한 IoU는 다음과 같다.
 
-<img src="https://github.com/user-attachments/assets/d247b425-4a1e-49c6-a3cb-432e15da458a" alt="수식" style="width:180px !important; max-width:180px !important; height:auto !important;">
+<img src="https://github.com/user-attachments/assets/d247b425-4a1e-49c6-a3cb-432e15da458a" alt="수식" style="width:220px !important; max-width:220px !important; height:auto !important;">
 
 여기서 \(A\)는 dNBR 0.10 이상인 지역, \(B\)는 MODIS에서 산불이 탐지된 지역을 의미한다.
 
@@ -475,7 +475,7 @@ MODIS 산불 탐지지역을 대상으로 연도별 평균 NDVI를 산출한 결
 
 피해강도별 회복 정도를 동일한 기준에서 비교하기 위해 다음과 같이 NDVI 회복률을 계산하였다.
 
-<img src="https://github.com/user-attachments/assets/5dbcaae9-e35f-46b2-88a9-bb57312d08e5" alt="수식" style="width:195px !important; max-width:195px !important; height:auto !important;">
+<img src="https://github.com/user-attachments/assets/5dbcaae9-e35f-46b2-88a9-bb57312d08e5" alt="수식" style="width:220px !important; max-width:220px !important; height:auto !important;">
 
 여기서 \(R\)은 NDVI 회복률(%), \(NDVI_{2019}\)는 산불 이전의 평균 NDVI, \(NDVI_{2020}\)은 산불 발생 연도의 평균 NDVI, \(NDVI_{2025}\)는 분석 종료 시점의 평균 NDVI를 의미한다.
 
@@ -493,7 +493,7 @@ MODIS 산불 탐지지역을 대상으로 연도별 평균 NDVI를 산출한 결
 
 NDVI 잔여 격차는 다음과 같이 계산하였다.
 
-<img src="https://github.com/user-attachments/assets/4c20efae-d8ca-4c61-afcc-cfb1abed97dd" alt="수식" style="width:200px !important; max-width:200px !important; height:auto !important;">
+<img src="https://github.com/user-attachments/assets/4c20efae-d8ca-4c61-afcc-cfb1abed97dd" alt="수식" style="width:225px !important; max-width:225px !important; height:auto !important;">
 
 여기서 \(\Delta NDVI\)는 산불 이전과 2025년 사이의 평균 NDVI 차이를 의미하며, 값이 클수록 2025년의 NDVI가 산불 이전 수준보다 낮음을 나타낸다.
 
@@ -546,7 +546,7 @@ NDVI 잔여 격차는 다음과 같이 계산하였다.
 
 두 변수 사이의 선형적 연관성을 확인하기 위해 Pearson 상관분석을 수행하였다.
 
-<img src="https://github.com/user-attachments/assets/e3480cdd-a424-4451-ab3f-8071d2b768e1" alt="수식" style="width:210px !important; max-width:210px !important; height:auto !important;">
+<img src="https://github.com/user-attachments/assets/e3480cdd-a424-4451-ab3f-8071d2b768e1" alt="수식" style="width:235px !important; max-width:235px !important; height:auto !important;">
 
 여기서 \(P_i\)는 연도별 누적강수량(mm), \(N_i\)는 해당 연도의 평균 NDVI, \(n\)은 비교에 사용한 연도 수를 의미한다.
 
@@ -568,7 +568,7 @@ NDVI 잔여 격차는 다음과 같이 계산하였다.
 
 두 집단은 산불 발생 이전의 평균 NDVI가 서로 다를 수 있으므로, 2019년을 기준으로 각 연도의 NDVI 변화량을 산정하였다. NDVI 변화량은 다음과 같이 계산하였다.
 
-<img src="https://github.com/user-attachments/assets/1fea3b4c-667e-49fa-be66-257a66412566" alt="수식" style="width:200px !important; max-width:200px !important; height:auto !important;">
+<img src="https://github.com/user-attachments/assets/1fea3b4c-667e-49fa-be66-257a66412566" alt="수식" style="width:225px !important; max-width:225px !important; height:auto !important;">
 
 여기서 \(\Delta NDVI_t\)는 2019년 대비 해당 연도의 NDVI 변화량을 의미하며, 음의 값은 산불 이전보다 NDVI가 감소하였음을, 양의 값은 증가하였음을 나타낸다.
 
