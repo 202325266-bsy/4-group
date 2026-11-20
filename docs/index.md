@@ -171,6 +171,7 @@ Sentinel-2의 개별 지표반사도 영상은 위성 관측에 기초한 자료
 수집한 위성영상은 구름과 그림자 등의 영향을 최소화하기 위해 전처리하였다. Sentinel-2의 SCL(Scene Classification Layer) 밴드를 이용하여 분류값 2, 4, 5, 6에 해당하는 픽셀만 남기고 나머지 픽셀은 제외하였다. 이후 기간별로 여러 영상의 픽셀 중앙값을 계산하여 대표 영상을 생성하였다. 산불 전후 NBR 분석에는 각 기간의 반사도 중앙값 영상을 사용하였으며, 연도별 NDVI 분석에는 개별 영상에서 NDVI를 계산한 뒤 중앙값 영상을 생성하였다.
 
 <img src="https://github.com/user-attachments/assets/00f1b46e-1a91-4bd1-94b9-6c61388debed" alt="수식" style="width:380px !important; max-width:380px !important; height:auto !important;">
+
 이후 구름 및 그림자 마스킹을 적용한 영상들을 연도별로 묶고 중앙값(Median) 합성을 수행하여, 개별 관측영상의 영향을 줄인 대표 영상을 생성하였다.
 
 분석에는 Sentinel-2의 적색(B4), 근적외선(B8), 단파적외선(B12) 밴드를 주로 사용하였다. 산불 전후의 자연색 영상 제작에는 청색(B2), 녹색(B3), 적색(B4) 밴드를 활용하였다.
