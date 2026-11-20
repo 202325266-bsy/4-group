@@ -90,7 +90,7 @@ badge: ""
 주요 결과물은 연도별 강수량·NDVI 비교표, 상관계수 및 피해·비탐지 산림의 NDVI 변화 비교 그래프이다. 단, 상관분석과 지역 간 비교만으로 강수량의 인과적 영향을 규명하거나 산불의 영향과 기후 영향을 완전히 분리할 수는 없다는 점을 고려한다.
 
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/e70a98a8-f4fe-4e01-bab7-0a3f24620744" />
-그림 3. 남호주 평년대비 강수량 편차 지도
+그림 4. 남호주 평년대비 강수량 편차 지도
 출처: Australian Bureau of Meteorology, BOM: South Australian rainfall percentages (1 January to 31 December 2020)
 
 ## 4. 재료 {#materials}
@@ -320,7 +320,7 @@ NDVI를 이용한 식생 회복률은 식생 녹색도의 변화를 나타내는
 
 <img width="1278" height="569" alt="image" src="https://github.com/user-attachments/assets/ad78c26c-0d2d-43e1-8e8f-eb6d27ca67ec" />
 
-*그림 1. Google Colab과 GEE를 활용한 캥거루섬 연구지역 설정 및 시각화*
+*그림 5. Google Colab과 GEE를 활용한 캥거루섬 연구지역 설정 및 시각화*
 
 *자료: FAO GAUL 2025 행정경계, Google Earth Engine 및 geemap 활용*
 
@@ -345,7 +345,7 @@ NDVI를 이용한 식생 회복률은 식생 녹색도의 변화를 나타내는
 
 <img width="2362" height="821" alt="image" src="https://github.com/user-attachments/assets/4a5b583e-5dcb-40f9-bd99-1bf1d3e2a9d9" />
 
-*그림 2. MODIS 자료를 이용한 캥거루섬 산불 탐지지역의 공간적 분포*
+*그림 6. MODIS 자료를 이용한 캥거루섬 산불 탐지지역의 공간적 분포*
 
 *자료: NASA MODIS MCD64A1 V6.1, 2019년 12월~2020년 2월, Google Earth Engine 분석*
 
@@ -374,7 +374,7 @@ NDVI를 이용한 식생 회복률은 식생 녹색도의 변화를 나타내는
 Sentinel-2 위성영상으로 산불 발생 전후의 NBR을 산출하고, 두 시기의 차이인 dNBR을 이용하여 캥거루섬의 산불 피해강도를 6개 등급으로 분류하였다. 분석 결과, 섬 전체에서 피해강도에 따른 분광 변화가 서로 다르게 나타났으며, 특히 높은 피해 등급에 해당하는 지역이 넓게 분포하는 것으로 확인되었다.
 
 <img width="1447" height="661" alt="image" src="https://github.com/user-attachments/assets/58c43947-3296-4d33-86c2-3f3e93888352" />
-*그림 3. Sentinel-2 dNBR을 이용한 캥거루섬 산불 피해강도별 공간분포* *자료: ESA Sentinel-2 MSI, Google Earth Engine 분석*
+*그림 7. Sentinel-2 dNBR을 이용한 캥거루섬 산불 피해강도별 공간분포* *자료: ESA Sentinel-2 MSI, Google Earth Engine 분석*
 
 **[표 3] dNBR 등급별 면적 및 전체 연구지역 대비 비율**
 
@@ -400,7 +400,7 @@ Sentinel-2의 dNBR 분석 결과와 MODIS의 산불 탐지 범위를 비교하�
 두 자료의 공간적 비교를 위해 분석 해상도를 100m로 통일하였으며, dNBR이 0.10 이상인 지역을 산불 피해 후보지역으로 설정하였다.
 
 <img width="1706" height="618" alt="image" src="https://github.com/user-attachments/assets/2e0a4ff0-2c3b-48bd-b4e7-4f25a22b4e90" />
-*그림 4. Sentinel-2 dNBR 기반 피해지역과 MODIS 산불 탐지지역의 공간적 중첩 분포* *자료: ESA Sentinel-2 MSI, NASA MODIS MCD64A1 V6.1, Google Earth Engine 분석*
+*그림 8. Sentinel-2 dNBR 기반 피해지역과 MODIS 산불 탐지지역의 공간적 중첩 분포* *자료: ESA Sentinel-2 MSI, NASA MODIS MCD64A1 V6.1, Google Earth Engine 분석*
 
 **[표 4] dNBR 피해지역과 MODIS 산불 탐지지역의 비교 결과**
 
@@ -451,7 +451,7 @@ MODIS 산불 탐지지역을 대상으로 연도별 평균 NDVI를 산출한 결
 
 <img width="829" height="453" alt="image" src="https://github.com/user-attachments/assets/62f2d996-d2b5-4112-80e1-ba265535d85d" />
 
-*그림 5. 2019~2025년 MODIS 산불 탐지지역의 연도별 평균 NDVI 변화*
+*그림 9. 2019~2025년 MODIS 산불 탐지지역의 연도별 평균 NDVI 변화*
 
 2025년의 평균 NDVI는 0.515로, 산불 발생 직후인 2020년보다 0.280 높았으나 산불 발생 이전인 2019년의 0.582보다는 0.067 낮게 나타났다. 따라서 산불 발생 이후 NDVI가 전반적으로 증가하였지만, 2025년까지의 관측 결과에서는 산불 이전 수준에 완전히 도달하지 않은 것으로 확인되었다.
 
@@ -488,7 +488,7 @@ MODIS 산불 탐지지역을 대상으로 연도별 평균 NDVI를 산출한 결
 
 <img width="1007" height="555" alt="image" src="https://github.com/user-attachments/assets/2eba3acb-b4da-41a9-90c3-fff0ab4f1c8d" />
 
-*그림 6. dNBR 피해강도별 2025년 NDVI 회복률 비교*
+*그림 10. dNBR 피해강도별 2025년 NDVI 회복률 비교*
 
 이처럼 산불 피해강도에 따라 NDVI의 감소량과 이후 회복 정도에는 차이가 확인되었다. 특히 높은 피해지역은 상대적 회복률이 가장 높았으나, 이것이 산불 이전 식생 상태로 완전히 회복되었음을 의미하지는 않는다. 이에 다음 절에서는 각 등급의 2025년 NDVI가 산불 이전 수준과 얼마나 차이가 나는지를 추가로 비교하였다.
 
@@ -517,7 +517,7 @@ NDVI 잔여 격차는 다음과 같이 계산하였다.
 
 <img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/b6d7b7ae-5407-45f3-9a59-d85f0db5e801" />
 
-*그림 7. dNBR 피해강도별 산불 이전 대비 2025년 평균 NDVI 잔여 격차*
+*그림 11. dNBR 피해강도별 산불 이전 대비 2025년 평균 NDVI 잔여 격차*
 
 특히 높은 피해지역(6등급)은 앞선 분석에서 NDVI 회복률이 82.167%로 가장 높았으나, 산불 이전과의 NDVI 잔여 격차 역시 0.096으로 가장 크게 나타났다. 반면 낮은 피해지역(3등급)은 회복률이 57.284%로 가장 낮았지만, NDVI 잔여 격차는 0.025로 가장 작았다.
 
@@ -561,7 +561,7 @@ NDVI 잔여 격차는 다음과 같이 계산하였다.
 
 <img width="1156" height="627" alt="image" src="https://github.com/user-attachments/assets/160191af-fb2e-4264-9280-4e852f509af5" />
 
-*그림 8. 2019~ 2025년 누적강수량과 산불 탐지지역의 평균 NDVI 변화*
+*그림 12. 2019~ 2025년 누적강수량과 산불 탐지지역의 평균 NDVI 변화*
 
 이러한 결과는 본 연구에서 비교한 6개 연도에 한하여 누적강수량과 평균 NDVI 사이에 뚜렷한 선형적 연관성이 나타나지 않았음을 보여준다. 다만 강수량 집계기간과 NDVI 영상의 실제 관측시점이 완전히 일치하지 않을 수 있으며, 연도별 표본 수가 6개로 제한되어 있어 상관분석 결과는 탐색적인 비교로 해석하였다.
 
@@ -597,7 +597,7 @@ NDVI 잔여 격차는 다음과 같이 계산하였다.
 
 <img width="1545" height="844" alt="image" src="https://github.com/user-attachments/assets/e713e1cc-2d74-48b3-a627-c464cf2f90f7" />
 
-*그림 9. 2019~2025년 캥거루섬 산불 탐지 산림과 비탐지 산림의 2019년 대비 NDVI 변화량 비교*
+*그림 13. 2019~2025년 캥거루섬 산불 탐지 산림과 비탐지 산림의 2019년 대비 NDVI 변화량 비교*
 
 *주: 빨간색 실선은 산불 탐지 산림, 초록색 실선은 비탐지 산림을 나타낸다. 점선은 2019년 기준값(0)을 의미한다.*
 
