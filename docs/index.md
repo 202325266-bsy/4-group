@@ -682,3 +682,9 @@ python 01_공통코드/advanced_analysis.py
 
 - Voogt, J. A., & Oke, T. R. (2003). Thermal remote sensing of urban climates. *Remote Sensing of Environment, 86*(3), 370–384. [https://doi.org/10.1016/S0034-4257(03)00079-8](https://doi.org/10.1016/S0034-4257(03)00079-8).
 - Schwaab, J., Meier, R., Mussetti, G., Seneviratne, S., Bürgi, C., & Davin, E. L. (2021). The role of urban trees in reducing land surface temperatures in European cities. *Nature Communications, 12*, 6763. [https://doi.org/10.1038/s41467-021-26768-w](https://doi.org/10.1038/s41467-021-26768-w).
+- Bonney, M. T., He, Y., & Myint, S. W. (2020). Contextualizing the 2019–2020 Kangaroo Island Bushfires: Quantifying Landscape-Level Influences on Past Severity and Recovery with Landsat and Google Earth Engine. Remote Sensing, 12(23), 3942.
+- Filipponi, F. (2019). BAIS2: Burned Area Index for Sentinel-2. Proceedings, 2(7), 364.
+- Gibson, R., Danaher, T., Hehir, W., & Collins, L. (2020). A remote sensing approach to mapping fire severity in south-eastern Australia using sentinel 2 and random forest. Remote Sensing of Environment, 240, 111702.
+- Keeley, J. E. (2009). Fire intensity, fire severity and burn severity: a brief review and suggested usage. International Journal of Wildland Fire, 18(1), 116–126.
+- Key, C. H., & Benson, N. C. (2006). Landscape Assessment (LA): Sampling and Analysis Methods. In FIREMON: Fire Effects Monitoring and Inventory System (Gen. Tech. Rep. RMRS-GTR-164-CD). USDA Forest Service.
+- Miller, J. D., & Thode, A. E. (2007). Quantifying burn severity in a heterogeneous landscape with a relative version of the delta Normalized Burn Ratio (dNBR). Remote Sensing of Environment, 109(1), 66–80.
