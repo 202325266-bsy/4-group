@@ -371,8 +371,7 @@ NDVI를 이용한 식생 회복률은 식생 녹색도의 변화를 나타내는
 Sentinel-2 위성영상으로 산불 발생 전후의 NBR을 산출하고, 두 시기의 차이인 dNBR을 이용하여 캥거루섬의 산불 피해강도를 6개 등급으로 분류하였다. 분석 결과, 섬 전체에서 피해강도에 따른 분광 변화가 서로 다르게 나타났으며, 특히 높은 피해 등급에 해당하는 지역이 넓게 분포하는 것으로 확인되었다.
 
 <img width="1447" height="661" alt="image" src="https://github.com/user-attachments/assets/58c43947-3296-4d33-86c2-3f3e93888352" />
-
-*(그림 3 : Google Colab에서 생성한 dNBR 6개 등급 지도. 등급별 범례와 캥거루섬 전체가 보이도록 캡처)*
+*그림 3. Sentinel-2 dNBR을 이용한 캥거루섬 산불 피해강도별 공간분포* *자료: ESA Sentinel-2 MSI, Google Earth Engine 분석*
 
 **[표 3] dNBR 등급별 면적 및 전체 연구지역 대비 비율**
 
@@ -398,8 +397,7 @@ Sentinel-2의 dNBR 분석 결과와 MODIS의 산불 탐지 범위를 비교하�
 두 자료의 공간적 비교를 위해 분석 해상도를 100m로 통일하였으며, dNBR이 0.10 이상인 지역을 산불 피해 후보지역으로 설정하였다.
 
 <img width="1706" height="618" alt="image" src="https://github.com/user-attachments/assets/2e0a4ff0-2c3b-48bd-b4e7-4f25a22b4e90" />
-
-*(그림 4 : dNBR 0.10 이상 지역과 MODIS 산불 탐지지역의 중첩 분포를 나타낸 지도)*
+*그림 4. Sentinel-2 dNBR 기반 피해지역과 MODIS 산불 탐지지역의 공간적 중첩 분포* *자료: ESA Sentinel-2 MSI, NASA MODIS MCD64A1 V6.1, Google Earth Engine 분석*
 
 **[표 4] dNBR 피해지역과 MODIS 산불 탐지지역의 비교 결과**
 
