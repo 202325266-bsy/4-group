@@ -218,7 +218,12 @@ NBR은 근적외선과 단파적외선 반사도의 차이를 이용하여 식�
 
 <img src="https://github.com/user-attachments/assets/3705f0f4-8198-4c7d-b74c-224fe1e3f6a5" alt="수식" style="width:170px !important; max-width:170px !important; height:auto !important;">
 
-여기서 \(A\)는 dNBR 3~6등급 지역, \(B\)는 MODIS 산불 탐지지역이다. \(|A\cap B|\)는 두 자료에서 공통으로 나타나는 면적, \(|A\cup B|\)는 두 자료 중 하나 이상에 포함되는 전체 면적을 의미한다.
+여기서 A는 dNBR 3~6등급 지역, B는 MODIS 산불 탐지지역이다.
+
+A∩B는 두 자료에서 공통으로 탐지된 면적을 의미하며,
+A∪B는 두 자료 중 하나 이상에서 탐지된 전체 면적을 의미한다.
+
+IoU는 두 위성자료의 공간적 일치 정도를 확인하기 위한 지표로 사용하였다.
 
 IoU는 두 위성 기반 자료의 공간적 일치 정도를 확인하기 위한 지표로 사용하였으며, MODIS 자료를 실제 산불 피해 범위의 절대적인 기준으로 간주하지는 않았다.
 
