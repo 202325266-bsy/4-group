@@ -70,10 +70,9 @@ badge: ""
 
 **필요성 및 평가 지표.** 산불 피해는 지형과 기존 식생 밀도에 따라 연소 강도가 크게 달라지므로 단일한 피해 경계만으로는 이후 구역별로 상이하게 나타나는 식생 회복 속도의 차이를 설명하기 어렵다. dNBR 등급별 피해 면적과 전체 연구지역 대비 비율, 그리고 공간해상도와 탐지 방식이 상이한 NASA MODIS 산불 탐지자료를 절대적 참값이 아닌 교차 검증 기준으로서 중첩한 공간 일치도(IoU)를 평가 지표로 산출하여 후속 회복 분석의 공간적 기준 등급을 설정한다.
 
-<img width="720" height="480" alt="image" src="https://github.com/user-attachments/assets/667ec46e-79a6-4c33-bc27-a1c3f268f678" />
+![2020년 1월 산불 발생 직후 캥거루섬 위성영상](figures/3-1.jpeg)
 **그림 3. 2020년 1월 대형산불 발생 직후의 호주 캥거루섬 위성영상**
 출처: NASA Earth Observatory (2020.01.07)
-
 
 ### 3.3 세부목적 2 · 피해강도 등급(3~6등급)별 연도별 NDVI 변화 경로, 상대적 회복률 및 잔여 격차 비교
 
@@ -89,9 +88,9 @@ badge: ""
 
 주요 결과물은 연도별 강수량·NDVI 비교표, 상관계수 및 피해·비탐지 산림의 NDVI 변화 비교 그래프이다. 단, 상관분석과 지역 간 비교만으로 강수량의 인과적 영향을 규명하거나 산불의 영향과 기후 영향을 완전히 분리할 수는 없다는 점을 고려한다.
 
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/e70a98a8-f4fe-4e01-bab7-0a3f24620744" />
+![2020년 남호주 및 캥거루섬 일대의 연강수량 편차 분포](figures/3-2.png)
 **그림 4. 남호주 평년대비 강수량 편차 지도**
-출처: Australian Bureau of Meteorology, BOM: South Australian rainfall percentages (1 January to 31 December 2020)
+출처: Australian Bureau of Meteorology, BOM: South Australian rainfall percentages (1 January to 31 December 2020)(캥거루섬 위치 표시는 Gemini를 활용해 편집)
 
 ## 4. 재료 {#materials}
 
