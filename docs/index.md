@@ -185,7 +185,7 @@ NBR은 근적외선과 단파적외선 반사도의 차이를 이용하여 식�
 
 <img src="https://github.com/user-attachments/assets/6af4a910-b3a1-438f-b63f-4e76db29f713" alt="수식" style="width:135px !important; max-width:135px !important; height:auto !important;">
 
-여기서 \(B_8\)은 근적외선 밴드, \(B_{12}\)는 단파적외선 밴드의 지표반사도를 의미한다.
+여기서 B<sub>8</sub>은 근적외선 밴드, B<sub>12</sub>는 단파적외선 밴드의 지표반사도를 의미한다.
 
 산불 이전과 이후의 NBR을 각각 계산한 다음, 두 시기의 차이를 이용하여 dNBR(differenced Normalized Burn Ratio)을 산출하였다.
 
@@ -193,12 +193,12 @@ NBR은 근적외선과 단파적외선 반사도의 차이를 이용하여 식�
 
 <img src="https://github.com/user-attachments/assets/c229c907-9de7-4ae6-b372-3680c8b31234" alt="수식" style="width:214px !important; max-width:214px !important; height:auto !important;">
 
-여기서 \(\mathrm{NBR}_{pre}\)는 산불 이전 NBR, \(\mathrm{NBR}_{post}\)는 산불 이후 NBR을 의미한다.
+여기서 NBR<sub>pre</sub>는 산불 이전(2019년) NBR, NBR<sub>post</sub>는 산불 이후(2020년) NBR을 의미한다.
 
-계산된 dNBR 값은 6개 등급으로 구분하였다.
+계산된 dNBR 값은 Key & Benson(2006)의 기준에 따라 6개 등급으로 구분하였다.
 
 | 등급 | dNBR 범위 | 피해 구분 |
-| --- | --- | --- |
+| :---: | :---: | :---: |
 | 1 | -0.10 미만 | 음의 변화 |
 | 2 | -0.10 이상 ~ 0.10 미만 | 비연소 또는 변화 작음 |
 | 3 | 0.10 이상 ~ 0.27 미만 | 낮은 피해 |
@@ -233,7 +233,7 @@ NDVI는 근적외선과 적색 밴드의 반사도 차이를 이용하여 식생
 
 <img src="https://github.com/user-attachments/assets/6c3123ea-50cf-49fa-bb9d-aa7e2e7af22b" alt="수식" style="width:143px !important; max-width:143px !important; height:auto !important;">
 
-여기서 \(B_8\)은 근적외선 밴드, \(B_4\)는 적색 밴드의 지표반사도를 의미한다.
+여기서 B<sub>8</sub>은 근적외선 밴드, B<sub>4</sub>는 적색 밴드의 지표반사도를 의미한다.
 
 매년 2~4월에 관측된 Sentinel-2 영상에서 NDVI를 계산한 후 픽셀별 중앙값을 이용하여 연도별 대표 NDVI 영상을 생성하였다. 산불이 발생한 2020년은 2월 7일 이후의 영상을 사용하여 산불 이후 식생 상태를 분석하였다.
 
@@ -247,7 +247,7 @@ NDVI는 근적외선과 적색 밴드의 반사도 차이를 이용하여 식생
 
 <img src="https://github.com/user-attachments/assets/623976eb-6471-4939-942d-35977110730e" alt="수식" style="width:272px !important; max-width:272px !important; height:auto !important;">
 
-여기서 \(R_t\)는 분석 연도 \(t\)의 NDVI 감소량 대비 회복률이며, \(\mathrm{NDVI}_{2019}\)는 산불 이전 평균 NDVI, \(\mathrm{NDVI}_{2020}\)은 산불 직후 평균 NDVI를 의미한다.
+여기서 R<sub>t</sub>는 분석 연도 t의 NDVI 감소량 대비 회복률이며, NDVI<sub>2019</sub>는 산불 이전 평균 NDVI, NDVI<sub>2020</sub>은 산불 직후 평균 NDVI를 의미한다. 회복률이 0%이면 2020년의 NDVI 수준과 같고, 100%이면 2019년의 NDVI 수준에 다시 도달했다는 의미이다.
 
 회복률이 0%이면 2020년의 NDVI 수준과 같고, 100%이면 2019년의 NDVI 수준에 다시 도달했다는 의미이다. 다만 이 회복률은 NDVI 변화에 근거한 상대적인 수치로, 실제 산림 생태계가 완전히 복원되었다는 의미는 아니다.
 
@@ -275,7 +275,7 @@ NDVI는 근적외선과 적색 밴드의 반사도 차이를 이용하여 식생
 
 <img src="https://github.com/user-attachments/assets/6417365e-2d0c-4ff5-bca0-b70a7c0c3c77" alt="수식" style="width:281px !important; max-width:281px !important; height:auto !important;">
 
-여기서 \(x_i\)는 연도별 누적 강수량, \(y_i\)는 해당 연도의 평균 NDVI이며, \(\bar{x}\)와 \(\bar{y}\)는 각각 두 변수의 평균이다. \(n\)은 상관계수 계산에 사용한 연도별 관측값의 수이다.
+여기서 x<sub>i</sub>는 연도별 누적 강수량, y<sub>i</sub>는 해당 연도의 평균 NDVI이며, x̄와 ȳ는 각각 두 변수의 평균이다. n은 상관계수 계산에 사용한 연도별 관측값의 수이다.
 
 상관계수는 두 변수 사이의 선형적 관계를 확인하는 데 활용하였으며, 강수량이 식생 회복을 직접적으로 유발했는지 판단하는 근거로 사용하지 않았다.
 
@@ -289,7 +289,7 @@ NDVI는 근적외선과 적색 밴드의 반사도 차이를 이용하여 식생
 
 <img src="https://github.com/user-attachments/assets/655f0415-0fa0-48c4-b4f6-fa8caf4d90f7" alt="수식" style="width:262px !important; max-width:262px !important; height:auto !important;">
 
-여기서 \(g\)는 산불 탐지 산림 또는 비탐지 산림 집단을, \(t\)는 분석 연도를 의미한다.
+여기서 g는 산불 탐지 산림 또는 비탐지 산림 집단을, t는 분석 연도를 의미한다.
 
 이어서 두 집단의 NDVI 변화량 차이를 계산하였다.
 
@@ -297,7 +297,7 @@ NDVI는 근적외선과 적색 밴드의 반사도 차이를 이용하여 식생
 
 <img src="https://github.com/user-attachments/assets/5815ec74-ccb8-41ce-9b33-ef3a977bfb94" alt="수식" style="width:221px !important; max-width:221px !important; height:auto !important;">
 
-여기서 \(B\)는 산불 탐지 산림, \(U\)는 산불 비탐지 산림을 의미한다.
+여기서 B는 산불 탐지 산림, U는 산불 비탐지 산림을 의미한다.
 
 이러한 방법으로 산불 탐지 산림의 NDVI 변화가 비탐지 산림과 얼마나 다르게 나타나는지 비교하였다. 다만 두 집단의 위치, 식생 구성, 지형 조건 및 산불 이전 상태가 동일하지 않으므로, 분석 결과를 산불의 순수한 인과효과로 해석하지는 않았다.
 
