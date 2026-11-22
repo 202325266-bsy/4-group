@@ -253,7 +253,7 @@ NDVI는 근적외선과 적색 밴드의 반사도 차이를 이용하여 식생
 
 **[식 (6) 산불 이전 대비 NDVI 차이]**
 
-<img src="https://github.com/user-attachments/assets/632ba37a-237d-4740-bda7-6a135f4caced" alt="수식" style="width:276px !important; max-width:276px !important; height:auto !important;">
+![식 (6) 산불 이전 대비 NDVI 차이](figures/9.png)
 
 이를 통해 피해강도별 상대적 회복률과 산불 이전 대비 남아 있는 NDVI 차이를 함께 비교하였다.
 
