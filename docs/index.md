@@ -167,7 +167,8 @@ Sentinel-2의 개별 지표반사도 영상은 위성 관측에 기초한 자료
 
 ## 5. 방법 {#method}
 
-<img width="2084" height="1968" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/d8d48a89-2586-41a9-93e3-43de7802742d" />
+<img width="1266" height="1246" alt="image" src="https://github.com/user-attachments/assets/5466654f-dc5b-48e6-a64d-a91622bd685f" />
+
 [연구 수행 절차 및 분석 흐름도]
 
 ## 5.1 자료 처리 및 기초 분석
