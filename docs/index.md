@@ -252,7 +252,7 @@ NDVI는 근적외선과 적색 밴드의 반사도 차이를 이용하여 식생
 
 <img src="https://github.com/user-attachments/assets/623976eb-6471-4939-942d-35977110730e" alt="수식" style="width:272px !important; max-width:272px !important; height:auto !important;">
 
-여기서 R<sub>t</sub>는 분석 연도 t의 NDVI 감소량 대비 회복률이며, NDVI<sub>2019</sub>는 산불 이전 평균 NDVI, NDVI<sub>2020</sub>은 산불 직후 평균 NDVI를 의미한다. 회복률이 0%이면 2020년의 NDVI 수준과 같고, 100%이면 2019년의 NDVI 수준에 다시 도달했다는 의미이다.
+여기서 R<sub>t</sub>는 분석 연도 t의 NDVI 감소량 대비 회복률이며, NDVI<sub>2019</sub>는 산불 이전 평균 NDVI, NDVI<sub>2020</sub>은 산불 직후 평균 NDVI를 의미한다.
 
 회복률이 0%이면 2020년의 NDVI 수준과 같고, 100%이면 2019년의 NDVI 수준에 다시 도달했다는 의미이다. 다만 이 회복률은 NDVI 변화에 근거한 상대적인 수치로, 실제 산림 생태계가 완전히 복원되었다는 의미는 아니다.
 
