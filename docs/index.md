@@ -167,6 +167,9 @@ Sentinel-2의 개별 지표반사도 영상은 위성 관측에 기초한 자료
 
 ## 5. 방법 {#method}
 
+<img width="2084" height="1968" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/d8d48a89-2586-41a9-93e3-43de7802742d" />
+[연구 수행 절차 및 분석 흐름도]
+
 ## 5.1 자료 처리 및 기초 분석
 
 본 연구에서는 Google Earth Engine(GEE)과 Google Colab을 활용하여 호주 캥거루섬의 산불 피해 범위와 이후 식생 회복 과정을 분석하였다. 먼저 FAO GAUL 행정경계 자료에서 캥거루섬에 해당하는 경계를 추출하여 연구 대상 지역을 설정하였다.
