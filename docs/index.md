@@ -89,6 +89,7 @@ badge: ""
 주요 결과물은 연도별 강수량·NDVI 비교표, 상관계수 및 피해·비탐지 산림의 NDVI 변화 비교 그래프이다. 단, 상관분석과 지역 간 비교만으로 강수량의 인과적 영향을 규명하거나 산불의 영향과 기후 영향을 완전히 분리할 수는 없다는 점을 고려한다.
 
 ![2020년 남호주 및 캥거루섬 일대의 연강수량 편차 분포](figures/3-2.png)
+
 **그림 4. 남호주 평년대비 강수량 편차 지도**
 출처: Australian Bureau of Meteorology, BOM: South Australian rainfall percentages (1 January to 31 December 2020)(캥거루섬 위치 표시는 Gemini를 활용해 편집)
 
@@ -679,61 +680,50 @@ NDVI 잔여 격차는 다음과 같이 계산하였다.
 
 종합하면, 캥거루섬 산불 피해지의 녹색도는 5년간 상당 부분 회복되었으나 피해강도가 높은 지역일수록 산불 이전과의 절대적 격차가 크게 남아 있었다. 이 결과는 산불 피해지의 회복을 평가할 때 상대적 회복률과 잔여 격차를 함께 제시하고 비피해지 변동과 비교해야 함을 보여주며, 잔여 격차가 큰 고강도 피해 등급을 장기 모니터링과 현장 조사의 우선 검토 대상으로 삼는 근거로 활용될 수 있다. 다만 본 결과는 단일 산불의 분광학적 녹색도 변화에 근거하므로 산림 생태계의 구조적 복원을 의미하지 않으며, 피해강도와 산불 이전 식생 유형의 효과를 분리한 분석과 현장·구조 자료를 통한 검증이 후속 과제로 남는다.
 
----
+## 참고문헌 {#references}
 
-<!-- 부록 참고문헌에 추가·수정할 항목 -->
-<!--
-Bonney, M. T., He, Y., & Myint, S. W. (2020). Contextualizing the 2019–2020 Kangaroo Island bushfires: Quantifying landscape-level influences on past severity and recovery with Landsat and Google Earth Engine. Remote Sensing, 12(23), 3942. https://doi.org/10.3390/rs12233942
-Boschetti, L., Roy, D. P., Giglio, L., Huang, H., Zubkova, M., & Humber, M. L. (2019). Global validation of the collection 6 MODIS burned area product. Remote Sensing of Environment, 235, 111490.
-DEW (Department for Environment and Water, South Australia) (2020). Find out how South Australia's Flinders Chase National Park is recovering post-bushfire. https://environment.sa.gov.au/goodliving/posts/2020/04/flinders-chase-plants-regenerating
-Gibson, R. K., & Hislop, S. (2022). Signs of resilience in resprouting Eucalyptus forests, but areas of concern: 1 year of post-fire recovery from Australia's Black Summer of 2019–2020. International Journal of Wildland Fire, 31(5), 545–557. https://doi.org/10.1071/WF21089
-Giglio, L., Boschetti, L., Roy, D. P., Humber, M. L., & Justice, C. O. (2018). The Collection 6 MODIS burned area mapping algorithm and product. Remote Sensing of Environment, 217, 72–85. https://doi.org/10.1016/j.rse.2018.08.005
-Huete, A., Didan, K., Miura, T., Rodriguez, E. P., Gao, X., & Ferreira, L. G. (2002). Overview of the radiometric and biophysical performance of the MODIS vegetation indices. Remote Sensing of Environment, 83(1–2), 195–213.
-Miller, J. D., & Thode, A. E. (2007). Quantifying burn severity in a heterogeneous landscape with a relative version of the delta Normalized Burn Ratio (dNBR). Remote Sensing of Environment, 109(1), 66–80.
--->
-### 부록 · 재현성 및 연구 기여 {#reproduce}
+### 논문 및 보고서
 
-#### 직접 실행하기
+Bonney, M. T., He, Y., & Myint, S. W. (2020). Contextualizing the 2019–2020 Kangaroo Island bushfires: Quantifying landscape-level influences on past severity and recovery with Landsat and Google Earth Engine. *Remote Sensing*, 12(23), 3942. https://doi.org/10.3390/rs12233942
 
-[Colab에서 합성자료 노트북 열기](https://colab.research.google.com/github/{{ site.github.owner_name }}/{{ site.github.repository_name }}/blob/main/02_개인분석/01_demo_analysis.ipynb)
+Boschetti, L., Roy, D. P., Giglio, L., Huang, H., Zubkova, M., & Humber, M. L. (2019). Global validation of the collection 6 MODIS burned area product. *Remote Sensing of Environment*, 235, 111490.
 
-심화 분석도 EE 인증 없이 실행됩니다. 공통 자료 준비 블록을 먼저 실행하고 해당 분석 셀을 따라가세요.
+Brown, C. F., Brumby, S. P., Guzder-Williams, B., Birch, T., Hyde, S. B., Mazzariello, J., et al. (2022). Dynamic World, Near real-time global 10 m land use land cover mapping. *Scientific Data*, 9, 251.
 
-- [세부목적 1: 환경조건 보정 — Colab](https://colab.research.google.com/github/{{ site.github.owner_name }}/{{ site.github.repository_name }}/blob/main/02_개인분석/02_confounding.ipynb)
-- [세부목적 2: 계절별 관계 — Colab](https://colab.research.google.com/github/{{ site.github.owner_name }}/{{ site.github.repository_name }}/blob/main/02_개인분석/03_seasonality.ipynb)
-- [세부목적 3: 강건성·공간 검증 — Colab](https://colab.research.google.com/github/{{ site.github.owner_name }}/{{ site.github.repository_name }}/blob/main/02_개인분석/04_robustness.ipynb)
+Funk, C., Peterson, P., Landsfeld, M., Pedreros, D., Verdin, J., Shukla, S., et al. (2015). The climate hazards infrared precipitation with stations—a new environmental record for monitoring extremes. *Scientific Data*, 2, 150066.
 
-GitHub 저장소의 코드를 로컬에서 실행하려면 다음을 사용합니다.
+Gibson, R. K., & Hislop, S. (2022). Signs of resilience in resprouting *Eucalyptus* forests, but areas of concern: 1 year of post-fire recovery from Australia's Black Summer of 2019–2020. *International Journal of Wildland Fire*, 31(5), 545–557. https://doi.org/10.1071/WF21089
 
-```text
-python -m pip install -r requirements.txt
-python 01_공통코드/make_demo.py
-python 01_공통코드/advanced_analysis.py
-```
+Giglio, L., Boschetti, L., Roy, D. P., Humber, M. L., & Justice, C. O. (2018). The Collection 6 MODIS burned area mapping algorithm and product. *Remote Sensing of Environment*, 217, 72–85. https://doi.org/10.1016/j.rse.2018.08.005
 
-예시 합성 분석은 2026-10-26 로컬 환경에서 실행 확인했습니다. GEE 시작 노트북의 실제 서버 실행은 검증하지 않았습니다.
+Gorelick, N., Hancher, M., Dixon, M., Ilyushchenko, S., Thau, D., & Moore, R. (2017). Google Earth Engine: Planetary-scale geospatial analysis for everyone. *Remote Sensing of Environment*, 202, 18–27.
 
-[별도 연습: GEE 시작 노트북](https://colab.research.google.com/github/{{ site.github.owner_name }}/{{ site.github.repository_name }}/blob/main/01_공통코드/01_gee_starter.ipynb)
+Huete, A., Didan, K., Miura, T., Rodriguez, E. P., Gao, X., & Ferreira, L. G. (2002). Overview of the radiometric and biophysical performance of the MODIS vegetation indices. *Remote Sensing of Environment*, 83(1–2), 195–213.
 
-#### 조원별 기여를 쓰는 방법
+Key, C. H., & Benson, N. C. (2006). Landscape assessment (LA): Sampling and analysis methods. In *FIREMON: Fire Effects Monitoring and Inventory System* (Gen. Tech. Rep. RMRS-GTR-164-CD, pp. LA-1–LA-55). USDA Forest Service, Rocky Mountain Research Station.
 
-실제 조에서는 “조원 A: 공통 전처리 및 품질 점검 / 조원 B: 공간 비교 / 조원 C: 시계열 분석”처럼 **분석 내용과 연결된 기여**를 기록하세요. 위 역할은 작성 예시이며 실제 참여자 명단이 아닙니다. 별도 주간 보고서는 만들지 않아도 됩니다.
+Miller, J. D., & Thode, A. E. (2007). Quantifying burn severity in a heterogeneous landscape with a relative version of the delta Normalized Burn Ratio (dNBR). *Remote Sensing of Environment*, 109(1), 66–80.
 
-#### 자료와 참고
+### 웹 자료 및 그림 출처
 
-- 합성자료: 이 저장소의 생성 코드, seed 2026(기본), 20261026(심화). 외부 관측 데이터 사용 없음.
-- [Landsat 8 Collection 2 Level-2 공식 자료 설명](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2)
-- [학생 사용 안내]({{ site.github.repository_url }}/blob/main/STUDENT_GUIDE.md)
-- [빈 보고서 틀](report-template.html)
+Australian Bureau of Meteorology (BOM). South Australian rainfall percentages, 1 January to 31 December 2020. (URL)
 
-- [섹션별 작성 지침]({{ site.github.repository_url }}/blob/main/05_보고서양식/섹션별_작성지침.md)
+Department for Environment and Water (DEW), South Australia. (2020). Find out how South Australia's Flinders Chase National Park is recovering post-bushfire. https://environment.sa.gov.au/goodliving/posts/2020/04/flinders-chase-plants-regenerating
 
+Department for Environment and Water (DEW), South Australia. (연도). (캥거루섬 산불 피해면적 211,474ha 공식 집계 자료 제목). (URL)
 
-#### 연구 배경 참고문헌
+NASA Earth Observatory. (2020). (그림 2 이미지 제목). (URL)
 
-- Bonney, M. T., He, Y., & Myint, S. W. (2020). Contextualizing the 2019–2020 Kangaroo Island Bushfires: Quantifying Landscape-Level Influences on Past Severity and Recovery with Landsat and Google Earth Engine. Remote Sensing, 12(23), 3942.
-- Filipponi, F. (2019). BAIS2: Burned Area Index for Sentinel-2. Proceedings, 2(7), 364.
-- Gibson, R., Danaher, T., Hehir, W., & Collins, L. (2020). A remote sensing approach to mapping fire severity in south-eastern Australia using sentinel 2 and random forest. Remote Sensing of Environment, 240, 111702.
-- Keeley, J. E. (2009). Fire intensity, fire severity and burn severity: a brief review and suggested usage. International Journal of Wildland Fire, 18(1), 116–126.
-- Key, C. H., & Benson, N. C. (2006). Landscape Assessment (LA): Sampling and Analysis Methods. In FIREMON: Fire Effects Monitoring and Inventory System (Gen. Tech. Rep. RMRS-GTR-164-CD). USDA Forest Service.
-- Miller, J. D., & Thode, A. E. (2007). Quantifying burn severity in a heterogeneous landscape with a relative version of the delta Normalized Burn Ratio (dNBR). Remote Sensing of Environment, 109(1), 66–80.
+NASA Earth Observatory. (2020). (그림 3, 2020.01.07 이미지 제목). (URL)
+
+### 사용 데이터셋 (Google Earth Engine)
+
+European Space Agency (ESA). Copernicus Sentinel-2 MSI Level-2A Surface Reflectance, Harmonized. GEE ID: `COPERNICUS/S2_SR_HARMONIZED`.
+
+Giglio, L., Justice, C., Boschetti, L., & Roy, D. (2021). MODIS/Terra+Aqua Burned Area Monthly L3 Global 500m SIN Grid V061. NASA EOSDIS Land Processes DAAC. https://doi.org/10.5067/MODIS/MCD64A1.061. GEE ID: `MODIS/061/MCD64A1`.
+
+Google & World Resources Institute. Dynamic World V1. GEE ID: `GOOGLE/DYNAMICWORLD/V1`.
+
+Climate Hazards Center, UC Santa Barbara. CHIRPS Daily Version 2.0 Final. GEE ID: `UCSB-CHG/CHIRPS/DAILY`.
+
+FAO. (2015). Global Administrative Unit Layers (GAUL) 2015, Level 2. GEE ID: `FAO/GAUL/2015/level2`.
